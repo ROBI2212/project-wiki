@@ -1,13 +1,12 @@
 # [PL] Projekt "WIKI"
 **Projekt "WIKI"** to kryptonim bota[^first] do komunikatora [Discord](https://discord.com).
 
-
 ## Roadmapa
 Czyli co bot będzie umie robić lub co będzie umiał.
 
 1. Etap 0 - Witaj świecie!
-- [ ] Witać się
-- [ ] Żegnać się
+- [x] Witać się
+- [x] Żegnać się
 - [ ] Ping-pong (polecenie)
 
 2. Etap 1 - Komunikacja i informacja zwrotna
@@ -27,13 +26,14 @@ Czyli co bot będzie umie robić lub co będzie umiał.
 - [ ] Pingowanie youtubera, gdy ten nie wstawi w przeciągu dnia przynajmniej jednego filmu
 - [ ] Informuję o rozpoczęciu streama w serwisie [Twitch.tv](https://twitch.tv)
 
-4. Etap 3 - Baza danych i cykliczne wydarzenia
+4. Etap 3 - Baza danych, cykliczne wydarzenia
 - [ ] Gra "Co ja pacze?"
+- [ ] Wykonywanie kodu z GitHuba ze wskazanego brancha
 
 5. Etap 4 - Administracja
 - [ ] System warnów (ostrzeżeń dla użytkowników)
 - [ ] Wstępna konfiguracja bota na nowym serwerze (możliwość wyboru dostępnych modułów)
 
-[^first] Bot został przygotowany w ramach realizacji próby instruktorskiej na stopień podharcmistrza 💚
+[^first]: Bot został przygotowany w ramach realizacji próby instruktorskiej na stopień podharcmistrza 💚
 
 
