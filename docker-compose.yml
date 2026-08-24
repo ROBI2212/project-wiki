@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    container_name: project-wiki
+    restart: unless-stopped
+    volumes:
+      - ./:/discord-bot
