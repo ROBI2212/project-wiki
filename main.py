@@ -12,6 +12,7 @@ load_dotenv()
 async def load_cogs():
     await client.load_extension("cogs.commands")
     await client.load_extension("cogs.on_message")
+    await client.load_extension("cogs.bot_activity")
     logger.info(f' Pozostałe pliki wczytane!')
 
 class Client(commands.Bot):
@@ -27,6 +28,7 @@ class Client(commands.Bot):
 
 intents = discord.Intents.default()
 intents.message_content = True
+intents.members = True
 client = Client(command_prefix="/", intents=intents)
 
 # LAUNCHING BOT

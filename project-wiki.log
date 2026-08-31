@@ -488,3 +488,720 @@ INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6dd6f54
 INFO:logger: 29 August 2026 01:22:01 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
 INFO:logger: 29 August 2026 01:22:01 | Zsynchronizowano 4 poleceń!
 INFO:discord.gateway:Shard ID None has successfully RESUMED session 6dd6f54da64906ec389cd28f4fa28930.
+INFO:logger: 29 August 2026 21:34:46 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ec9aef81aea4e9947b34da3cdd8bce31).
+INFO:logger: 29 August 2026 21:34:46 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 21:34:46 | Zsynchronizowano 4 poleceń!
+INFO:logger: Użytkownik miau2796, 911311803873648640 dołączył na serwer Dom Babci Roberta.
+INFO:logger: Użytkownik miau2796 opuścił serwer Dom Babci Roberta
+INFO:logger: 29 August 2026 22:36:19 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6b1e8237555e47e46fad1e18ae1f19e5).
+INFO:logger:Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 22:36:19 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'random_status'.
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\tasks\__init__.py", line 247, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\bot_activity.py", line 19, in random_status
+    new_activity = load_activities('activities.json')
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\bot_activity.py", line 8, in load_activities
+    activities = json.load(file)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 2 column 28 (char 29)
+INFO:logger: 29 August 2026 22:36:19 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 22:40:29 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 33999a71856ef909b70c5baedaad16ff).
+INFO:logger:Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 22:40:29 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: Wiki robi coś nowego: aktywność 2 :O
+INFO:logger: 29 August 2026 22:40:29 | Zsynchronizowano 4 poleceń!
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 2 :O
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 2 :O
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 2 :O
+INFO:logger: Wiki robi coś nowego: aktywność 2 :O
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 1 :O
+INFO:logger: Wiki robi coś nowego: aktywność 2 :O
+INFO:logger: Wiki robi coś nowego: spanko w kuchni 😴 :O
+INFO:logger: 29 August 2026 22:47:35 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: af5610b3f81ca29790c367ec35563ff6).
+INFO:logger: 29 August 2026 22:47:53 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0aeee84f15736fc0454561c9e9c73fdf).
+INFO:logger:Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 22:47:53 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: Wiki robi coś nowego: patrze w telewizor 📺 :O
+INFO:logger: 29 August 2026 22:47:53 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 22:49:07 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0c8d7a31d7f72db20a7ded4d1a5ecfe6).
+INFO:logger: 29 August 2026 22:49:07 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 22:49:07 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 22:49:07 | Wiki robi coś nowego: szczekam na koty na podwórku :O
+INFO:logger: 29 August 2026 22:49:07 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 22:50:01 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6c4514b690add7d14ea18d541b19fcf0).
+INFO:logger: 29 August 2026 22:50:01 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 22:50:01 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 22:50:01 | Wiki robi coś nowego: Jem psie żarcie :O
+INFO:logger: 29 August 2026 22:50:01 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 23:12:01 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 4f19cd30c675600dd4f60ec617db7748).
+INFO:logger: 29 August 2026 23:12:01 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:12:01 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:12:01 | Wiki robi coś nowego: Psocę w kuchni 🐶 :O
+INFO:logger: 29 August 2026 23:12:01 | Zsynchronizowano 4 poleceń!
+ERROR:discord.client:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\on_message.py", line 15, in on_message
+    bot_mention = self.client.user.name.mention()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'mention'
+ERROR:discord.client:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\on_message.py", line 15, in on_message
+    bot_mention = self.client.user.name.mention()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'mention'
+ERROR:discord.client:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\on_message.py", line 15, in on_message
+    bot_mention = self.client.user.name.mention()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'mention'
+INFO:logger: 29 August 2026 23:12:52 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 464ecc71d14a9d5c65a6f404f2079950).
+INFO:logger: 29 August 2026 23:12:52 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:12:52 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:12:52 | Wiki robi coś nowego: Psocę w kuchni 🐶 :O
+INFO:logger: 29 August 2026 23:12:52 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 23:18:57 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: fb5221675873395f58e61638f62635f2).
+INFO:logger: 29 August 2026 23:18:57 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:18:57 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:18:57 | Wiki robi coś nowego: Ganiam własny ogon 🐶 :O
+INFO:logger: 29 August 2026 23:18:57 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 23:22:04 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 167757245c84c5dc5dfe80e3a69defad).
+INFO:logger: 29 August 2026 23:22:04 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:22:04 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:22:04 | Wiki robi coś nowego: Spanko w kuchni 😴 :O
+INFO:logger: 29 August 2026 23:22:04 | Zsynchronizowano 4 poleceń!
+ERROR:discord.client:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\on_message.py", line 15, in on_message
+    bot_mention = ("wiki" in new_message or self.client.user in new_message)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'in <string>' requires string as left operand, not ClientUser
+ERROR:discord.client:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\on_message.py", line 20, in on_message
+    if new_message.startswith(tuple(witajki)) and bot_mention.lower():
+                                                  ^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'lower'
+INFO:logger: 29 August 2026 23:23:02 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: c5842d1dc2d4072970598364ab7db46b).
+INFO:logger: 29 August 2026 23:23:02 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:23:02 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:23:02 | Wiki robi coś nowego: Jem psie żarcie :O
+INFO:logger: 29 August 2026 23:23:02 | Zsynchronizowano 4 poleceń!
+ERROR:discord.client:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\on_message.py", line 20, in on_message
+    if new_message.startswith(tuple(witajki)) and bot_mention.lower():
+                                                  ^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'lower'
+ERROR:discord.client:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\on_message.py", line 20, in on_message
+    if new_message.startswith(tuple(witajki)) and bot_mention.lower():
+                                                  ^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'lower'
+INFO:logger: 29 August 2026 23:23:36 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1026b0888f686b9faab722799d8b2034).
+INFO:logger: 29 August 2026 23:23:36 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:23:36 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:23:36 | Wiki robi coś nowego: Hau hau :3 :O
+INFO:logger: 29 August 2026 23:23:36 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 23:25:28 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0e2c5b934874fd9bf86dcb31041db3a4).
+INFO:logger: 29 August 2026 23:25:28 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:25:28 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:25:28 | Wiki robi coś nowego: Jem psie żarcie :O
+INFO:logger: 29 August 2026 23:25:28 | Zsynchronizowano 4 poleceń!
+INFO:logger: 29 August 2026 23:53:50 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 5c86c217cffd34c5edf02459cbc182a4).
+INFO:logger: 29 August 2026 23:53:50 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:53:50 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:53:50 | Wiki robi coś nowego: Ganiam własny ogon 🐶 :O
+INFO:logger: 29 August 2026 23:53:50 | Zsynchronizowano 6 poleceń!
+INFO:logger: 29 August 2026 23:55:38 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 185de01fe86391ae52d7e06c14b09fbe).
+INFO:logger: 29 August 2026 23:55:38 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:55:38 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:55:38 | Wiki robi coś nowego: Spanko w kuchni 😴 :O
+INFO:logger: 29 August 2026 23:55:38 | Zsynchronizowano 6 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 50, in user
+    embed = discord.Embed(title="/user command", description="TEST", color="blue")
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\embeds.py", line 192, in __init__
+    self.colour = colour if colour is not None else color
+    ^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\embeds.py", line 347, in colour
+    raise TypeError(f'Expected discord.Colour, int, or None but received {value.__class__.__name__} instead.')
+TypeError: Expected discord.Colour, int, or None but received str instead.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 873, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: TypeError: Expected discord.Colour, int, or None but received str instead.
+INFO:logger: 29 August 2026 23:56:24 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 259b61b64c573bf983c6c15df1147c8e).
+INFO:logger: 29 August 2026 23:56:24 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:56:24 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:56:24 | Wiki robi coś nowego: Szczekam na koty na podwórku :O
+INFO:logger: 29 August 2026 23:56:24 | Zsynchronizowano 6 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 50, in user
+    embed = discord.Embed(title="/user command", description="TEST", color=blue)
+                                                                           ^^^^
+NameError: name 'blue' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: NameError: name 'blue' is not defined
+INFO:logger: 29 August 2026 23:58:11 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 59a8c26808fe5f9238be3f43bd46924f).
+INFO:logger: 29 August 2026 23:58:11 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 29 August 2026 23:58:11 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 29 August 2026 23:58:11 | Wiki robi coś nowego: Spanko w kuchni 😴 :O
+INFO:logger: 29 August 2026 23:58:11 | Zsynchronizowano 6 poleceń!
+INFO:logger: 31 August 2026 12:25:18 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6d8e0c1399e7ebbc4050cb17f985cd6d).
+INFO:logger: 31 August 2026 12:25:18 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 12:25:18 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 12:25:18 | Wiki robi coś nowego: Hau hau :3 :O
+INFO:logger: 31 August 2026 12:25:18 | Zsynchronizowano 6 poleceń!
+INFO:logger: 31 August 2026 12:26:52 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 39d57997ba447df7e4c2a96e51fc4da1).
+INFO:logger: 31 August 2026 12:26:52 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 12:26:52 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 12:26:52 | Wiki robi coś nowego: Patrze w telewizor 📺 :O
+INFO:logger: 31 August 2026 12:26:52 | Zsynchronizowano 6 poleceń!
+INFO:logger: 31 August 2026 13:03:35 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a139adcc2ab71b2f0c6b43ac1d495f99).
+INFO:logger: 31 August 2026 13:03:35 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 13:03:35 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 13:03:35 | Wiki robi coś nowego: Hau hau :3 :O
+INFO:logger: 31 August 2026 13:03:35 | Zsynchronizowano 7 poleceń!
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "Xd" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "helps" is not found
+INFO:logger: 31 August 2026 13:13:09 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 34c179ce5730f1f85980250f0394e4a8).
+INFO:logger: 31 August 2026 13:13:09 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 13:13:09 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 13:13:09 | Wiki robi coś nowego: Patrze w telewizor 📺 :O
+INFO:logger: 31 August 2026 13:13:09 | Zsynchronizowano 7 poleceń!
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "command" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "commands" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "commands" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "commands" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "commands" is not found
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "commands" is not found
+INFO:logger: 31 August 2026 15:56:17 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a403b7e1774cdffb94c60097a4e8cd17).
+INFO:logger: 31 August 2026 15:56:17 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 15:56:17 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 15:56:17 | Wiki robi coś nowego: Szczekam na koty na podwórku :O
+INFO:logger: 31 August 2026 15:56:17 | Zsynchronizowano 7 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 54, in user
+    embed.add_field(name="2FA: ",value=interaction.user.mfa_enabled)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Member' object has no attribute 'mfa_enabled'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: AttributeError: 'Member' object has no attribute 'mfa_enabled'
+INFO:logger: 31 August 2026 15:58:28 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: cdb37f642617c3da78c8f178486cc074).
+INFO:logger: 31 August 2026 15:58:28 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 15:58:28 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 15:58:28 | Wiki robi coś nowego: Szczekam na koty na podwórku :O
+INFO:logger: 31 August 2026 15:58:28 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 16:04:06 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: fdd7c267467cbaea0386aebee7e9ec2d).
+INFO:logger: 31 August 2026 16:04:06 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 16:04:06 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 16:04:06 | Wiki robi coś nowego: Hau hau :3 :O
+INFO:logger: 31 August 2026 16:04:06 | Zsynchronizowano 7 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 55, in user
+    embed.add_field(name="Booster od:",value=interaction.user.premium_since.strftime("%d.%m.%Y"))
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: AttributeError: 'NoneType' object has no attribute 'strftime'
+INFO:logger: 31 August 2026 16:05:03 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 5f3110b28ad2899280a6f223b5aee0e8).
+INFO:logger: 31 August 2026 16:05:03 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 16:05:03 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 16:05:03 | Wiki robi coś nowego: Patrze w telewizor 📺 :O
+INFO:logger: 31 August 2026 16:05:03 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 16:07:28 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: e0023069fe1873875a7ee64e2d299c57).
+INFO:logger: 31 August 2026 16:07:28 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 16:07:28 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 16:07:28 | Wiki robi coś nowego: Szczekam na koty na podwórku :O
+INFO:logger: 31 August 2026 16:07:28 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 16:07:54 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 46d4392175d30dd3fbb9c29ce890af5e).
+INFO:logger: 31 August 2026 16:07:54 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 16:07:54 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 16:07:54 | Wiki robi coś nowego: Spanko w kuchni 😴 :O
+INFO:logger: 31 August 2026 16:07:54 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 16:08:51 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: dafc6ae5d656d5671bc2d31bfc6b10b5).
+INFO:logger: 31 August 2026 16:08:51 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 16:08:51 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 16:08:51 | Wiki robi coś nowego: Patrze w telewizor 📺 :O
+INFO:logger: 31 August 2026 16:08:51 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 18:47:33 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 797f1206cb743405e4294d8abb1e0204).
+INFO:logger: 31 August 2026 18:47:33 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 18:47:33 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 18:47:33 | Wiki robi coś nowego: Ganiam własny ogon 🐶 :O
+INFO:logger: 31 August 2026 18:47:33 | Zsynchronizowano 7 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 59, in user
+    embed.add_field(name="Booster od:",value=booster.strftime("%d.%m.%Y"),inline=True)
+                                             ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: AttributeError: 'NoneType' object has no attribute 'strftime'
+INFO:logger: 31 August 2026 18:48:33 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d640aace2d105fe33685782045ebb932).
+INFO:logger: 31 August 2026 18:48:33 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 18:48:33 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 18:48:33 | Wiki robi coś nowego: Szczekam na koty na podwórku :O
+INFO:logger: 31 August 2026 18:48:33 | Zsynchronizowano 7 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 59, in user
+    embed.add_field(name="Booster od:",value=booster.strftime("%d.%m.%Y"),inline=True)
+                                             ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strftime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: AttributeError: 'NoneType' object has no attribute 'strftime'
+INFO:logger: 31 August 2026 18:49:17 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 4a4d0bae23263f74389ca4bbda9c493e).
+INFO:logger: 31 August 2026 18:49:17 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 18:49:17 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 18:49:17 | Wiki robi coś nowego: Jem psie żarcie :O
+INFO:logger: 31 August 2026 18:49:17 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 18:52:39 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: e8c1dbd504efd083d0e7c04742046d2a).
+INFO:logger: 31 August 2026 18:52:39 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 18:52:39 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 18:52:39 | Wiki robi coś nowego: Spanko w kuchni 😴 :O
+INFO:logger: 31 August 2026 18:52:39 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 18:53:26 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ed9d5aae06d511b743affcc0aacb8cfd).
+INFO:logger: 31 August 2026 18:53:26 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 18:53:26 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 18:53:26 | Wiki robi coś nowego: Jem psie żarcie :O
+INFO:logger: 31 August 2026 18:53:26 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 18:55:45 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1fb7473f0a66b764888206072bcd3e82).
+INFO:logger: 31 August 2026 18:55:45 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 18:55:45 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 18:55:45 | Wiki robi coś nowego: Ganiam własny ogon 🐶 :O
+INFO:logger: 31 August 2026 18:55:45 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 19:53:01 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 25d14cbaa5db36cd03f32a8efa045ec1).
+INFO:logger: 31 August 2026 19:53:01 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 19:53:01 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 19:53:01 | Wiki robi coś nowego: Hau hau :3 :O
+INFO:logger: 31 August 2026 19:53:01 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 20:11:54 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: f149d9ec978dca0cd52828515b185d74).
+INFO:logger: 31 August 2026 20:11:54 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 20:11:54 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 20:11:54 | Wiki robi coś nowego: Patrze w telewizor 📺 :O
+INFO:logger: 31 August 2026 20:11:54 | Zsynchronizowano 7 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 51, in user
+    embed = discord.Embed(title=f"Informacje o {interaction.user.name}",color=discord.Color.green(),image=interaction.user.primary_guild.badge)
+TypeError: Embed.__init__() got an unexpected keyword argument 'image'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 873, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: TypeError: Embed.__init__() got an unexpected keyword argument 'image'
+INFO:logger: 31 August 2026 20:13:10 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1a3490b42ae2c4aceb5dcc24d93b4546).
+INFO:logger: 31 August 2026 20:13:10 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 20:13:10 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 20:13:10 | Wiki robi coś nowego: Patrze w telewizor 📺 :O
+INFO:logger: 31 August 2026 20:13:10 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 20:13:23 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: c969d03fd7a782f22082f9f710da9955).
+INFO:logger: 31 August 2026 20:13:23 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 20:13:23 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 20:13:23 | Wiki robi coś nowego: Psocę w kuchni 🐶 :O
+INFO:logger: 31 August 2026 20:13:23 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 20:15:07 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 48af567bad292976a4a4028da7f53058).
+INFO:logger: 31 August 2026 20:15:07 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 20:15:07 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 20:15:07 | Wiki robi coś nowego: Hau hau :3 :O
+INFO:logger: 31 August 2026 20:15:07 | Zsynchronizowano 7 poleceń!
+INFO:logger: 31 August 2026 20:23:32 | Moduł logów załączony prawidłowo.
+INFO:logger: 31 August 2026 20:26:10 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 556d517676108b185a65e46da19133d8).
+INFO:logger: 31 August 2026 20:26:10 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 20:26:10 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 20:26:10 | Wiki robi coś nowego: Szczekam na koty na podwórku :O
+INFO:logger: 31 August 2026 20:26:10 | Zsynchronizowano 7 poleceń!
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 53, in user
+    embed = discord.Embed(title=f"Informacje o {user.display_name}",color=discord.Color.green())
+                                                ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'display_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: AttributeError: 'NoneType' object has no attribute 'display_name'
+ERROR:discord.app_commands.tree:Ignoring exception in command 'user'
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\Programowanie\project-wiki\cogs\commands.py", line 53, in user
+    embed = discord.Embed(title=f"Informacje o {user.display_name}",color=discord.Color.green())
+                                                ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'display_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rmazur\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'user' raised an exception: AttributeError: 'NoneType' object has no attribute 'display_name'
+INFO:logger: 31 August 2026 20:29:37 | Moduł logów załączony prawidłowo.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+WARNING:discord.client:davey is not installed, voice will NOT be supported
+INFO:logger: Pozostałe pliki wczytane!
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7f54f777c6fcd23818924ed0d50add1c).
+INFO:logger: 31 August 2026 20:29:37 | Zmiana statusu, oczekiwanie na pamięć cache...
+INFO:logger: 31 August 2026 20:29:37 | Wiki wstał! Zalogowano jako Piesek Wiki#6366!
+INFO:logger: 31 August 2026 20:29:37 | Wiki robi coś nowego: Jem psie żarcie :O
+INFO:logger: 31 August 2026 20:29:37 | Zsynchronizowano 7 poleceń!
