@@ -34,20 +34,20 @@ Czyli co bot umie robić lub co będzie umiał robić.
 - [x] Pierwsze easter eggi
 - [x] Hostowanie bota na serwerze 24/7
 
-### 2. Etap 1 - Komunikacja i informacja zwrotna
+### 2. Etap 1 - Komunikacja i informacja zwrotna (ZAKOŃCZONY)
 - [x] Bieżąca aktualizacja kodu bez konieczności budowania obrazu na nowo
 - [x] Zapisywanie logów w określonym pliku na serwerze
-- [ ] Wprowadzenie poleceń
-    - [ ] /help - lista dostępnych komend
-    - [ ] /info - podstawowe informacje o bocie
-    - [ ] /user - informacje o użytkowniku
+- [x] Wprowadzenie poleceń
+    - [x] /help - lista dostępnych komend
+    - [x] /info - podstawowe informacje o bocie
+    - [x] /user - informacje o użytkowniku
     - [x] /send_message - wysłanie wiadomości na wskazany kanał na serwerze
     - [x] /ping - rozbudowa polecenia o szybkość reakcji (w ms)
-- [ ] Odpowiadanie na określone słowa + swoje imię
+- [x] Odpowiadanie na określone słowa + swoje imię
 - [x] Rozdzielenie kodu na osobne pliki
-- [ ] Witanie nowych osób na serwerze
-- [ ] Żegnanie osób opuszczających serwer
-- [ ] Zmiana aktywności w ustalonych odstępach czasu
+- [x] Witanie nowych osób na serwerze
+- [x] Żegnanie osób opuszczających serwer
+- [x] Zmiana aktywności w ustalonych odstępach czasu
 
 ### 3. Etap 2 - integracje, webhooki i API
 - [ ] Zliczanie wiadomości użytkowników[^third]
