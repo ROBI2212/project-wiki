@@ -12,9 +12,13 @@ def load_activities(json_file):
 class bot_activity(commands.Cog):
     def __init__(self, client):
         self.client = client
-        self.random_status.start()
 
-    # CHANGE AVTIVITY PER 6 HOURS
+    @commands.Cog.listener()
+    async def on_ready(self):
+        if not self.random_status.is_running():
+            self.random_status.start()
+
+    # CHANGE ACTIVITY PER 6 HOURS
     @tasks.loop(hours=6)
     async def random_status(self):
         new_activity = load_activities('activities.json')
@@ -25,6 +29,7 @@ class bot_activity(commands.Cog):
     async def before_random_status(self):
         await self.client.wait_until_ready()
         logger.info(f' {logging_date()} | Zmiana statusu, oczekiwanie na pamięć cache...')
+
 
 async def setup(client):
     await client.add_cog(bot_activity(client))
