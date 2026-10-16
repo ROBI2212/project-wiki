@@ -64,13 +64,20 @@ class commands(commands.Cog):
             embed.add_field(name="Booster od:",value=booster.strftime("%d.%m.%Y"),inline=True)
         embed.add_field(name="\u200b",value="\u200b",inline=True)
 
-        activity = user.activity
-        if activity == None:
+        user_activity = user.activities
+        print(f'User activities: {user_activity}')
+        if user_activity == None:
             embed.add_field(name="Co robi:",value="Opierdala się xD")
         else:
-            embed.add_field(name="Co robi:",value=user.activity)
-        embed.add_field(name="Tag:",value=user.primary_guild.tag,inline=True)
+            for i in user_activity:
+                if isinstance(i, discord.Spotify):
+                    embed.add_field(name="Co robi:",value=f'Słucha {user_activity.title}')
+                if isinstance(i, discord.Game):
+                    embed.add_field(name="Co robi:",value=f'Gra {user_activity.name}')
+                if isinstance(i,discord.Streaming):
+                    embed.add_field(name="Co robi:",value=f'Streamuje {user_activity.name}')
 
+        embed.add_field(name="Tag:",value=user.primary_guild.tag,inline=True)
         embed.set_author(name=interaction.user.name, icon_url=interaction.user.avatar)
         embed.set_footer(text="Copyright © 2026 Robert Mazur, Project Wiki v0.2")
         await interaction.response.send_message(embed=embed)

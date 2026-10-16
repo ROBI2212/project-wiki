@@ -50,12 +50,14 @@ Czyli co bot umie robić lub co będzie umiał robić.
 - [x] Zmiana aktywności w ustalonych odstępach czasu
 
 ### 3. Etap 2 - integracje, webhooki i API
-- [ ] Zliczanie wiadomości użytkowników[^third]
+- [ ] Połączenie z API VPSa [MIKR.US](https://api.mikr.us) do wykonywania operacji na VPSie
+- [X] Integracja z API [Tipi ZHP](https://tipi.zhp.pl/api/swagger-ui/index.html#/)[^third]
+- [ ] Zliczanie wiadomości użytkowników[^fourth]
 - [ ] Integracja z systemem Uptime Kuma przez webhook
-- [ ] Informacja o opublikowanych filmach na wskazanym kanale [YouTube](https://youtube.com)[^third]
-- [ ] Liczenie "streak" codziennych opublikowanych filmów[^third]
-- [ ] Pingowanie youtubera, gdy ten nie wstawi w przeciągu dnia przynajmniej jednego filmu[^third]
-- [ ] Informacja o rozpoczęciu streama w serwisie [Twitch.tv](https://twitch.tv)[^third]
+- [ ] Informacja o opublikowanych filmach na wskazanym kanale [YouTube](https://youtube.com)[^fourth]
+- [ ] Liczenie "streak" codziennych opublikowanych filmów[^fourth]
+- [ ] Pingowanie youtubera, gdy ten nie wstawi w przeciągu dnia przynajmniej jednego filmu[^fourth]
+- [ ] Informacja o rozpoczęciu streama w serwisie [Twitch.tv](https://twitch.tv)[^fourth]
 
 ### 4. Etap 3 - Baza danych, cykliczne wydarzenia
 - [ ] Gra "Co ja pacze?"
@@ -63,7 +65,7 @@ Czyli co bot umie robić lub co będzie umiał robić.
 - [ ] Wykonywanie kodu z GitHuba ze wskazanego brancha
 
 ### 5. Etap 4 - Administracja
-- [ ] System warnów (ostrzeżeń dla użytkowników)[^third]
+- [ ] System warnów (ostrzeżeń dla użytkowników)[^fourth]
 - [ ] Polecenia administracyjne (/kick, /ban itp.)
 - [ ] Wstępna konfiguracja bota na nowym serwerze (możliwość wyboru dostępnych modułów)
 
@@ -71,5 +73,6 @@ Roadmapa może być na bieżaco aktualizowana. Etapy oznaczone jako (ZAKOŃCZONE
 
 [^first]: Nazwa pochodzi od psa, z którym autor bawił się w dzieciństwie. Pies należał do dziadków autora.
 [^second]: Bot został przygotowany w ramach realizacji próby instruktorskiej na stopień podharcmistrza 💚
-[^third]: Pomysł na funkcję "zapożyczony" od bota "Sappy" z Kosmicznej Floty Jedenastka v6.9
+[^third]: Integracja z Tipi ma charakter demonstracyjny, tylko do odczytu i nie jest planowana jej implementacja
+[^fourth]: Pomysł na funkcję "zapożyczony" od bota "Sappy" z Kosmicznej Floty Jedenastka v6.9
 
